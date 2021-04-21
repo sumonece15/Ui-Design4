@@ -23,21 +23,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text="Dashboard Menu"
+            android:text="Dashboard"
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="34dp"
+            android:background="@drawable/edit_text_button"
+            android:drawableStart="?android:attr/actionModeWebSearchDrawable"
+            android:elevation="20dp"
+            android:ems="10"
+            android:hint="Search for ..."
+            android:inputType="textPersonName"
+
+            android:padding="10dp"
+            android:textSize="14sp"
+
+            tools:targetApi="lollipop" />
+
+
 
     </LinearLayout>
+
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">
